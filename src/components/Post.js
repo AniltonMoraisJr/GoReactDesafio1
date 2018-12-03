@@ -18,12 +18,12 @@ const Post = ({ data }) => (
 );
 
 Post.defaultProps = {
-  posts: [],
+  data: [],
 };
 
 Post.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
-  posts: PropTypes.array,
+  data: PropTypes.array,
 };
 
 export default Post;
