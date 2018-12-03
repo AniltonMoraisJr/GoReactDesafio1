@@ -1,0 +1,8 @@
+div.head {
+  color: #fff;
+  background-color: $bd_head_color;
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  justify-content: center;
+  margin: 0;
+}
